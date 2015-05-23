@@ -1,0 +1,27 @@
+#!/bin/sh
+
+#for laptop
+sudo apt-get install indicator-cpufreq
+
+sudo add-apt-repository ppa:atareao/atareao
+sudo apt-get update
+sudo apt-get install --force -yes touchpad-indicator
+
+#monitoring tool
+sudo apt-get install indicator-multiload
+sudo apt-get install --force -yes git bzr xchat
+
+#movie player
+sudo add-apt-repository ppa:darklin20/bomi 
+sudo apt-get update
+sudo apt-get install --force -yes bomi
+
+#unity tweak
+sudo apt-get intall --force -yes unity-tweak-tool
+
+#unity theme
+sudo add-apt-repository ppa:noobslab/themes
+sudo apt-get update
+sudo apt-get install --force -yes numix-gtk-theme
+
+
